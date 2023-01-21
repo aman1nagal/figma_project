@@ -1,0 +1,189 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app{
+  width: 1000px;
+  height: 1000px;
+  background-color: #dcd96b;
+}
+.header{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 1399px;
+  height: 120px;
+  /* background-color:rgb(13, 63, 103); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mid_Steps{
+  width: 185vh;
+  height: 100vh;
+  background-color: rgb(229, 239, 239);
+}
+.search{
+  margin: 15px;
+  width: 400px;
+  margin-right: 10px;
+  padding-right: 10px;
+  height: 30px;
+ border: none;
+  background-color: whitesmoke;
+}
+.text{
+  /* background-color: #61dafb; */
+  display: flex;
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding-right: 15px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 1px solid;
+}
+.addtask{
+  /* background-color: #61dafb; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content:end;
+  cursor: pointer;
+}
+.header_main{
+  background-color: whitesmoke;
+  border-radius: 0.8em;
+  height: 60px;
+  border: 2px solid;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+.steps{
+  background-color: white;
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+}
+.first_step{
+  background-color: rgb(212, 212, 211);
+ margin:30px;
+ height: 39rem;
+ width: 23rem;
+display: flex;
+flex-direction: column;
+
+}
+.second_step{
+   background-color: rgb(212, 212, 211);
+ margin:30px;
+ height: 39rem;
+ width: 23rem;
+ display: flex;
+flex-direction: column;
+}
+.third_step{
+  background-color: rgb(212, 212, 211);
+  margin:30px;
+  height: 39rem;
+  width: 23rem;
+  display: flex;
+flex-direction: column;
+}
+.four_step{
+  background-color: rgb(212, 212, 211);
+  margin:30px;
+  height: 39rem;
+  width: 23rem;
+  display: flex;
+flex-direction: column;
+}
+.heading_step{
+  /* background-color: #dcd96b; */
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.invitual_step{
+  background-color: #ffffff;
+  height: 9rem;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.number{
+ margin: 9px;
+}
+.delete{
+  margin-top : 5px;
+/* background-color: #61dafb; */
+display:flex ;
+flex-direction: row;
+justify-content: space-between;
+}
+.colorofdelete{
+  /* background-color: #61dafb; */
+  color: red;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.deletestep{
+  /* background-color: #a631c6; */
+  display: flex;
+  flex-direction: row;
+}
+.indinumber{
+  margin: 4px;
+  height: 20px;
+  /* background-color: yellowgreen; */
+}
+.deleteheight{
+  /* background-color: rgb(203, 71, 71); */
+  margin-top:9px ;
+  height: 40px;
+  width: 30px;
+  color: red;
+  cursor: pointer;
+}
+.arrow{
+  /* background-color: #61dafb; */
+  display: flex;
+  margin-right: 5px;
+  justify-content: end;
+  align-items: flex-end;
+}
+.arrow_height{
+  cursor: pointer;
+  height: 40px;
+  width: 30px;
+}
+.arrow_step2{
+  /* background-color: #61dafb; */
+  margin-left: 6px;
+  display: flex;
+  margin-right: 6px;
+  justify-content: space-between;
+}
+.arrow_height_step2{
+  cursor: pointer;
+  height: 40px;
+  width: 30px;
+}
